@@ -27,6 +27,7 @@ class LinkedList:
         while current.next.next:
             current = current.next
         current.next = None
+        
 
     def display(self):
         if not self.head:

@@ -32,6 +32,8 @@ def solveNQueens(n):
     result = []
     board = [-1] * n
     solve(0)
+    
+    
 
     final_result = [create_output(solution) for solution in result]
     final_result.sort()   
